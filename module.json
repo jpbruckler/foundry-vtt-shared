@@ -1,0 +1,38 @@
+{   
+   "name": "foundry-vtt-shared",   
+   "title": "Shared Data",   
+   "description": "Sharing data across worlds",   
+   "author": "Lichblast",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.5.0",
+   "packs": [
+      {
+        "name": "items",
+        "label": "Shared Items",
+        "path": "packs/items.db",
+        "entity": "Item",
+        "module": "SharedData"
+      },
+      {
+        "name": "spells",
+        "label": "Shared Spells",
+        "path": "packs/spells.db",
+        "entity": "Item",
+        "module": "SharedData"
+      },
+      {
+        "name": "monsters",
+        "label": "My Monsters",
+        "path": "packs/monsters.db",
+        "entity": "Actor",
+        "module": "SharedData"
+      },
+      {
+        "name": "scenes",
+        "label": "Shared Scenes",
+        "path": "packs/scenes.db",
+        "entity": "Scene",
+        "module": "SharedData"
+      }
+    ]
+  }
