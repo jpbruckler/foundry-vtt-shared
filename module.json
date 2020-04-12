@@ -36,6 +36,13 @@
         "path": "packs/scenes.db",
         "entity": "Scene",
         "module": "SharedData"
+      },
+      {
+        "name": "rolltables",
+        "label": "Shared Tables",
+        "path": "packs/tables.db",
+        "entity": "RollTable",
+        "module": "SharedData"
       }
     ]
   }

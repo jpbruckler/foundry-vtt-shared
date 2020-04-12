@@ -1,0 +1,104 @@
+{"_id":"aS9SxiRDo63s9ZYp","name":"Potion Strength","permission":{"default":0},"folder":null,"sort":300001,"flags":{},"results":[{"id":1,"flags":{},"type":0,"text":"Regular with slight side effect","img":"icons/svg/d20-black.svg","resultId":"","weight":1,"range":[1,1],"drawn":false},{"id":2,"flags":{},"type":0,"text":"Regular with no side effect","img":"icons/svg/d20-black.svg","resultId":"","weight":1,"range":[2,2],"drawn":false},{"id":3,"flags":{},"type":0,"text":"Regular with strong side effect","img":"icons/svg/d20-black.svg","resultId":"","weight":1,"range":[3,3],"drawn":false},{"id":4,"flags":{},"type":0,"text":"Minor with strong side effect","img":"icons/svg/d20-black.svg","resultId":"","weight":1,"range":[4,4],"drawn":false},{"id":5,"flags":{},"type":0,"text":"Minor with a slight side effect","img":"icons/svg/d20-black.svg","resultId":"","weight":1,"range":[5,5],"drawn":false},{"id":6,"flags":{},"type":0,"text":"Major with a strong side effect","img":"icons/svg/d20-black.svg","resultId":"","weight":1,"range":[6,6],"drawn":false},{"id":7,"flags":{},"type":0,"text":"Major with a small side effect","img":"icons/svg/d20-black.svg","resultId":"","weight":1,"range":[7,7],"drawn":false},{"id":8,"flags":{},"type":0,"text":"A poison with almost no positive effects","img":"icons/svg/d20-black.svg","resultId":"","weight":1,"range":[8,8],"drawn":false},{"id":9,"flags":{},"type":0,"text":"Temporary but strong and wears off quickly","img":"icons/svg/d20-black.svg","resultId":"","weight":1,"range":[9,9],"drawn":false},{"id":10,"flags":{},"type":0,"text":"Seemingly Permanent","img":"icons/svg/d20-black.svg","resultId":"","weight":1,"range":[10,10],"drawn":false}],"formula":"","replacement":true,"displayRoll":true}
+{
+  "name": "Manistrad Jobs",
+  "sort": 100001,
+  "flags": {
+    "exportSource": {
+      "world": "gos-fam",
+      "system": "dnd5e",
+      "coreVersion": "0.5.3",
+      "systemVersion": 0.86
+    }
+  },
+  "results": [
+    {
+      "_id": "YWJUABBS1PD9iC1d",
+      "flags": {},
+      "type": 0,
+      "text": "Guard a mining shaft that was recently attacked by duergar from the Underdark.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "B7Kzg8TYbJQQc2T0",
+      "flags": {},
+      "type": 0,
+      "text": "Escort supply wagons moving to and from Saltmarsh.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": true
+    },
+    {
+      "_id": "81wGlfSgpCTj7c3U",
+      "flags": {},
+      "type": 0,
+      "text": "Explore a tunnel discovered in the mines that bears signs of troglodyte infestation.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "tEl12moUUXS7ctYX",
+      "flags": {},
+      "type": 0,
+      "text": "Find a group of miners who went missing underground and may have been snatched by slavers.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "2M9hnRW0pOd5UsCA",
+      "flags": {},
+      "type": 0,
+      "text": "Track down a thief who stole a shipment of expensive mining gear in Saltmarsh.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false
+    },
+    {
+      "_id": "D3LDP2K27yw6PCeM",
+      "flags": {},
+      "type": 0,
+      "text": "Locate the source of zombies and skeletons that have been sighted in the mines recently.",
+      "img": "icons/svg/d20-black.svg",
+      "resultId": "",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false
+    }
+  ],
+  "replacement": false,
+  "displayRoll": false,
+  "_id": "PJS28KvDSfkCTqaf",
+  "description": "Those who seek an audience with Manistrad can find her here when she’s not working at the mine. She sometimes has need for adventurers to help keep the mining operation secure. Roll a d6 and consult the table below to determine the nature of an available task.",
+  "formula": "d6"
+}
