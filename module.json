@@ -1,53 +1,60 @@
 {   
-   "name": "foundry-vtt-shared",   
-   "title": "Shared Data",   
+   "name": "lichblast-fvtt-shared",   
+   "title": "Lichblast's Shared Data",   
    "description": "Sharing data across worlds",   
    "author": "Lichblast",
-   "version": "1.0.5",
+   "version": "1.0.6",
    "minimumCoreVersion": "0.5.4",
    "compatibleCoreVersion": "0.5.5",
-   "url": "https://github.com/jpbruckler/foundry-vtt-shared",
-   "manifest": "https://raw.githubusercontent.com/jpbruckler/foundry-vtt-shared/master/module.json",
-   "download": "https://github.com/jpbruckler/foundry-vtt-shared/releases/download/1.0.5/foundry-vtt-shared.zip",
+   "url": "https://github.com/jpbruckler/lichblast-fvtt-shared",
+   "manifest": "https://raw.githubusercontent.com/jpbruckler/lichblast-fvtt-shared/master/module.json",
+   "download": "https://github.com/jpbruckler/lichblast-fvtt-shared/releases/download/1.0.6/lichblast-fvtt-shared.zip",
    "packs": [
       {
-        "name": "items",
-        "label": "Shared Items",
+        "name": "lichblast-shared-items",
+        "label": "Lichblast's Items",
         "path": "packs/items.db",
         "entity": "Item",
         "module": "SharedData"
       },
       {
-        "name": "spells",
-        "label": "Shared Spells",
+        "name": "lichblast-sane-magic",
+        "label": "Lichblast's Sane Magical Prices",
+        "path": "packs/sane-magic-prices.db",
+        "entity": "Item",
+        "module": "SharedData"
+      },
+      {
+        "name": "lichblaset-spells",
+        "label": "Lichblast's Shared Spells",
         "path": "packs/spells.db",
         "entity": "Item",
         "module": "SharedData"
       },
       {
-        "name": "monsters",
-        "label": "Shared Monsters",
+        "name": "lichblast-monsters",
+        "label": "Lichblast's Shared Monsters",
         "path": "packs/monsters.db",
         "entity": "Actor",
         "module": "SharedData"
       },
       {
-        "name": "scenes",
-        "label": "Shared Scenes",
+        "name": "lichblast-scenes",
+        "label": "Lichblast's Shared Scenes",
         "path": "packs/scenes.db",
         "entity": "Scene",
         "module": "SharedData"
       },
       {
-        "name": "rolltables",
-        "label": "Shared Tables",
+        "name": "lichblast-rolltables",
+        "label": "Lichblast's Shared Tables",
         "path": "packs/tables.db",
         "entity": "RollTable",
         "module": "SharedData"
       },
       {
-        "name": "macros",
-        "label": "Shared Macros",
+        "name": "lichblast-macros",
+        "label": "Lichblast's Shared Macros",
         "path": "packs/macros.db",
         "entity": "Macro",
         "module": "SharedData"
